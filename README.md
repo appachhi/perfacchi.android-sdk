@@ -45,13 +45,12 @@ apply plugin: 'com.appachhi.plugin'
 - SDK will automatically be initialized as soon as the app launches and it will start collecting data
 
 - In order to gather information regarding method trace, you can annotate a method as show below
-
-      ```java
-      @Trace(name = "Your Trace Name")
-      public void foo(){
-        // Any code
-      }
-      ```
+```java
+    @Trace(name = "Your Trace Name")
+    public void foo(){
+    // Any code
+    }
+```
 - As soon as the app launches, you will be asked to grant permission to show an overlay. If you allow then an overlay will be show where you can see the captured data
 
 - All the data are currently saved in database too 
