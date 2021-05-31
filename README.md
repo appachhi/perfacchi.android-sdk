@@ -1,4 +1,4 @@
-# Bugasura Performance SDK
+# Perfachhi Performance SDK
 
 A simple and easy to use performance monitoring and instrumentation library for
 Android
